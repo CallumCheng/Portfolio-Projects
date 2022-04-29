@@ -1,0 +1,155 @@
+.body {
+    min-height: 95vh;
+    background: #280352;
+    font: 14px 'Nunito', sans-serif;
+    text-align: center ;
+    margin: 5px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+  
+p {
+      margin: 15px 0 10px;
+      font-size: 20px;
+      font-weight: 700;
+      color: #FFF;
+     
+    }
+ 
+ul {
+    list-style-type:none;
+    text-align: left ;
+    margin: 10px;
+    font-size: 120%;
+}
+.container {
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+} 
+
+.heading {
+    color: #ffff;
+    font-size: 500%;
+    top: 100px;
+}
+.empty-item {
+    visibility: hidden;
+}
+
+.todo-list {
+    margin-top: -50px;
+    visibility: visible;
+}
+.item-list {
+    margin: 10px;
+    background-color: #FFF;
+    padding: 15px;
+    border-radius: 10px;
+    width: 360px;
+   font-size: 120%;
+}
+/* {
+    
+} */
+
+.remove-item-button {
+    font-size: 120%;
+    margin-left: 162px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+.item-list-complete {
+    color: #ffff;
+    background-color: #6b07dd;
+    text-decoration: line-through;
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    font-size: 120%;
+}
+
+
+#add-item{
+        margin-left: 40px;
+        background-color: #FFF;
+        padding: 17px;
+        border-radius: 10px;
+        width: 380px;
+       font-size: 120%;
+       right: 60px;
+       box-shadow: none;
+    }
+
+#add-item-button{
+   position: relative;
+   top: 3px;
+   background-color: transparent;
+   font-size: 150%;
+   right: 55px;
+   border: none;
+   cursor: pointer;
+}
+
+.fa-warning {
+    color: rgb(230, 191, 22);
+    font-size: 120%;
+} 
+
+.fa-ban {
+    color: red;
+    font-size: 120%;
+}
+
+.zero-notes {
+    margin-top: 30px;
+}
+
+
+
+#footer {
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    height: 2.5rem;
+}
+.h4, h4 {
+      font-size: 30px;
+      color: #fff;
+      text-align: center;
+    }
+
+.todo-list {
+            display: inline-block;
+            margin-right: 50px;
+            width: flex;
+            max-width: 700px;
+
+        }
+
+@viewport {
+     width: device-width; 
+      
+        }
+  
+@media (min-width: 992px){
+  .container {
+      width: 100%;
+        }
+    }
+  
+@media (max-width: 1680px){
+  svg {
+      width: 70px;
+      height: 70px;
+    }
+    }
+  
+.todo-list input[type="checkbox"] {
+      opacity: 0;
+  }
+  
+  

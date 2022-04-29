@@ -1,0 +1,40 @@
+<html lang="en" >
+   <head>
+      <title>Todost ✍️</title>
+      <meta name="viewport" content="height=device-height, initial-scale=1, user-scalable=no">
+      <meta name="description" content="Todost - Beautiful Todo list to uses 🍪 to track your tasks"/>
+      <link rel="shortcut icon" href="todost.png">
+      <link href="https://fonts.googleapis.com/css?family=Nunito:400,700" rel="stylesheet">
+      <meta charset="UTF-8">
+
+      <link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+      <link rel="stylesheet" href="styles.css">
+      <script src="script.js" defer></script>
+   </head>
+
+      <body class="body">
+         <div class="container">
+            <h1 class="heading">It is {date here} my dudes </h1>
+
+            <form id="notes">
+               <input type="text" id="add-item" placeholder="✍️  Add item..."/>
+               <input type="submit" id="add-item-button" value="➕">
+            </form>
+
+            <p class="empty-item"><i class="fa fa-warning"></i> Oops! Please, enter name item</p>
+            <p class="zero-notes"><i class="fa fa-ban"></i>  Currently there are no notes</p>
+
+               <ul class="todo-list">
+               <div class="todo">
+                  <li class="item-list-complete">Placeholder Item<button class="remove-item-button">🗑️</button></li>
+                  <li class="item-list">Placeholder Item<button class="remove-item-button">🗑️</button></li>
+                  <li class="item-list">Placeholder Item<button class="remove-item-button">🗑️</button></li>
+               </div>
+               </ul>
+               
+         </div>
+         <footer id="footer">
+            <h4>Made ❤️ Callum </h4>
+         </footer>
+   </body>
+   </html>
