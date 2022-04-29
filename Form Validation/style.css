@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&family=Raleway&display=swap');
+
+body {
+    /* background-image: url('images/cookies.jpg'); */
+    background-color: #ce99ff;
+    background-position: center;
+    background-size: cover;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;    
+    padding: 3px;
+    min-height: 96vh;
+    max-height: 100%;
+    margin: 0;
+    /* min-width: 20vh; */
+}
+
+h1,h2 {
+    color:#f0f0f0;
+    font-size: 2.5em;
+    font-weight: 2000;
+ }
+footer {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5em;
+    position: flex;
+    top: 100%;
+}
+.ValidationForm{
+    background-color: #ffffff;
+    padding: 1em;
+    min-height: 15em;
+    border-radius: 8px;
+    width: 60%;
+    max-width: 700px;
+    /* position: absolute; */
+    margin-left: 29%;
+    text-align: left;
+    
+}
+
+.form {
+    padding: 10px 70px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.form label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form input {
+    border: 3px solid #f0f0f0;
+    border-radius: 4px;
+    display: block;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 0.8em;
+    padding: 10px;
+    width: 100%;
+}
+
+.form.success input{
+    border-color: #00d12d;
+    border-radius: 2px;
+    border: 2px;
+}
+
+.form.fail input{
+    border-color: #ff0000;
+    border-radius: 2px;
+    border: 2px;
+}
+
+.form i{
+    position: absolute;
+    right: 65px;
+    top: 56px;
+    visibility: hidden;
+}
+
+.form small {
+    font-size: 0.7em;
+    color: #ff0000;
+    position: absolute;
+    left: 70px;
+    visibility: hidden;
+}
+
+.form.success i.fa-check{
+    color: #00d12d;
+    visibility: visible;
+
+}
+
+.form.fail i.fa-xmark{
+    color:#ff0000;
+    visibility: visible;
+}
+
+.form.fail small{
+    visibility: visible;
+}
+
+.ValidationForm button {
+    position: center;
+    width: 80%;
+    margin-left: 10%;
+    padding: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: 10px #ce99ff;
+    border-radius: 8px;
+    color: #363636;
+    background-color:#ce99ff;
+    cursor: pointer; 
+}
