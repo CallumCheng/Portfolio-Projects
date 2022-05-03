@@ -1,3 +1,4 @@
 # Portfolio-Projects
-A collection of my personal portfolio projects for viewers and employers to look at
+
+A repository dedicated to my personal portfolio projects for viewers. Come check it out.
 
